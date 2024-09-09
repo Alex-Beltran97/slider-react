@@ -1,0 +1,26 @@
+.slider {
+  border: 1px solid red;
+  display: flex;
+  overflow-x: hidden;
+  margin: 0 1rem;
+}
+
+.slider__wrapper {
+  display: flex;
+  gap: 3.75rem;
+  animation: slide 10s infinite linear;
+}
+
+.slider__figure {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: max-content;
+  gap: 1.5rem;
+}
+
+.slider__figure img {
+  width: auto;
+  height: 100%;
+}
+
